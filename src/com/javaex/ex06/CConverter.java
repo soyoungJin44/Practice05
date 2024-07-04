@@ -1,9 +1,12 @@
 package com.javaex.ex06;
 
 public class CConverter {
-    
+    //필드
     public static double rate;
     
+    //생성자
+    
+    //메서드 gs
     public static void setRate(double rate){
         CConverter.rate = rate;
     }
@@ -16,5 +19,10 @@ public class CConverter {
         return dollar * rate;
     }
     
+    
+    //메서드 일반
+    
+    
+    }
 
-}
+
