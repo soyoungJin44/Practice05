@@ -1,4 +1,4 @@
- package com.javaex.ex06;
+  package com.javaex.ex06;
 
 
 public class CConverterApp {
@@ -8,8 +8,6 @@ public class CConverterApp {
         double dollar;
         double won;
         
-        
-       
         
         CConverter.setRate(1118.70);
         

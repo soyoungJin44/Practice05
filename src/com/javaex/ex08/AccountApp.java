@@ -12,14 +12,14 @@ public class AccountApp {
         
         Account account = new Account("312-89562-123456");
         
-        while(run){
+        while(run){ //무한반복
             System.out.println("");
             System.out.println("----------------------------------");
             System.out.println("1.예금 | 2.출금 | 3.잔고 |4.종료");
             System.out.println("----------------------------------");
             System.out.print("선택>");
             
-            int menuNo = sc.nextInt();
+            int menuNo = sc.nextInt(); //몇번인지 입력받고
             
             switch(menuNo){
             
