@@ -15,7 +15,7 @@ public class Book {
 		this.bookNo = bookNo;
 		this.title = title;
 		this.author =author;
-		this.stateCode = 1;
+		this.stateCode = 0;
 		
 	}
 	//메서드 gs
@@ -46,11 +46,15 @@ public class Book {
 	
 	//메서드 일반
     public void rent() {
-    	this.stateCode = stateCode;
+    	this.stateCode = 0;
+    	System.out.println(title + "이(가) 대여 되었습니다.");
+    }
+    	
+    	public void print() {
     	if(stateCode == 0) {
-    		System.out.println(this.bookNo + "이 대여되었습니다.");
+    		System.out.println(this.bookNo + "책 제목: " + this.title + "작가: " + this.author + "대여유무:대여중");
     	}else if(stateCode == 1) {
-    		System.out.println();
+    		System.out.println(this.bookNo + "책 제목: " + this.title + "작가: " + this.author + "대여유무:재고있음");
     	}
     }
     
