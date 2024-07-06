@@ -9,7 +9,7 @@ public class Print {
     //메소드  3개 를 작성하세요
     public void printer(boolean va2) {
     	System.out.println(va2);
-    }
+    } 
     
     public void printer(double va3) {
     	System.out.println(va3);
